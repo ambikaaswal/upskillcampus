@@ -1,0 +1,54 @@
+.env
+
+# ======================
+# Compiled Java files
+# ======================
+*.class
+
+# Your compiled classes folder
+/classes/
+
+# ======================
+# Build / output folders
+# ======================
+/target/
+/build/
+/out/
+
+# ======================
+# IDE files
+# ======================
+.vscode/
+.idea/
+*.iml
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Temporary files
+# ======================
+*.tmp
+*.temp
+
+*.class
+/classes/
+/target/
+/build/
+/out/
+
+.vscode/
+.idea/
+*.iml
+
+*.log
+.DS_Store
+Thumbs.db
