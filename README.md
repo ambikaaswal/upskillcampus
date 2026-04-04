@@ -37,7 +37,8 @@ upskillcampus/
 ├── README.md
 └── MuliclientServiceMarketplacePlatform_AmbikaAswal_USC_UCT.pdf
 
-For admin: password: Market@Place and name shall be admin
+For admin:
+password: Market@Place and name shall be admin only role: customer
 
 ⚙️ Setup Instructions
 1️⃣ Clone Repository
