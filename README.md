@@ -37,6 +37,8 @@ upskillcampus/
 ├── README.md
 └── MuliclientServiceMarketplacePlatform_AmbikaAswal_USC_UCT.pdf
 
+For admin: password: Market@Place and name shall be admin
+
 ⚙️ Setup Instructions
 1️⃣ Clone Repository
 git clone https://github.com/ambikaaswal/upskillcampus.git

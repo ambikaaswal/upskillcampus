@@ -2,17 +2,86 @@
 <html>
 <head>
     <title>Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f8fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px 50px;
+            border-radius: 12px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #4a90a4;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #dbe7ef;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #a8d0e6;
+            color: #033b4a;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8fc3db;
+        }
+
+        .link {
+            margin-top: 12px;
+            font-size: 13px;
+        }
+
+        a {
+            color: #4a90a4;
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
 
-<h2>Login</h2>
+<div class="container">
+    <h2>Login</h2>
 
-<form action="/marketplace/login" method="post">
-    Email: <input type="email" name="email" required><br><br>
-    Password: <input type="password" name="password" required><br><br>
+    <form action="/marketplace/login" method="post">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
 
-    <input type="submit" value="Login">
-</form>
+        <button type="submit">Login</button>
+    </form>
+
+    <div class="link">
+        Don't have an account? <a href="register.html">Register</a>
+    </div>
+</div>
 
 </body>
 </html>
